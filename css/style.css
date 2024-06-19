@@ -1,0 +1,97 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+#sup {
+  background: #141414;
+  color: #fefefe;
+  text-align: center;
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  padding: 15px;
+  font-size: 19px;
+}
+
+body {
+  font-family: "Franklin Gothic Medium", "Arial Narrow", Arial, sans-serif;
+  height: 100vh;
+  background-color: #f0f0f0;
+  margin: 0;
+  font-size: 15pt;
+}
+.container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+#forms {
+  background: #ebdbe077;
+  padding: 20px;
+  width: 500%;
+  max-width: 650px;
+  margin: 100px;
+  height: 800px;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+#forms form {
+  display: flex;
+  flex-direction: column;
+  text-align: left;
+  margin: 40px;
+}
+
+#forms h2 {
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+.dividir {
+  display: flex;
+  justify-content: space-between;
+}
+
+.dividir input {
+  border: 0;
+  outline: 0;
+  padding: 15px;
+  align-items: left;
+  width: 200px;
+}
+
+input {
+  border: 0;
+  outline: 0;
+  padding: 15px;
+}
+
+button {
+  color: #f0f0f0;
+  background: #ff4081;
+  border: 0;
+  width: 200px;
+  margin: 10px auto 10px;
+  padding: 20px;
+  margin-top: 30px;
+}
+
+p {
+  margin: 20px;
+}
+
+.container strong {
+  color: #ff4081;
+  font-size: 38px;
+}
+
+
+#footer {
+  background: #ebdbe077;
+  position:fixed;
+  width: 1920px;px;
+  height: 200px;
+}
